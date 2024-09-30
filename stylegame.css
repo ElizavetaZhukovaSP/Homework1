@@ -122,6 +122,10 @@ body {
   box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
   background: rgb(255, 255, 255);
   width: 378px;
+  transition: transform 0.2s;
+}
+.content:hover {
+  transform: scale(1.05);
 }
 
 .content__item {
