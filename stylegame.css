@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -111,6 +115,24 @@ body {
   margin-top: 72px;
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
+}
+
+.content__block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content__block2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content__block3 {
+  display: flex;
+  flex-direction: column;
   gap: 32px;
 }
 
